@@ -1,6 +1,16 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package atv01;
+
+/**
+ *
+ * @author uepa
+ */
 import java.util.Scanner;
 
-public class ATV01 {
+public class Atv01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -11,7 +21,5 @@ public class ATV01 {
         int numero2 = scanner.nextInt();
 
         System.out.println("Os números digitados foram: " + numero1 + " e " + numero2);
-
-        scanner.close();
     }
 }
